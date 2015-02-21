@@ -10,7 +10,8 @@ module.exports = function(grunt) {
       licenseFile : 'license.txt',
 
       depFiles : [
-        'third-party/underscore.js',
+        // 'third-party/underscore.js',
+        'third-party/lodash.js',
         'third-party/events.js',
         'third-party/requestAnimationFrame.js'
       ],
@@ -21,8 +22,8 @@ module.exports = function(grunt) {
         'src/anchor.js',
         'src/matrix.js',
         'src/renderer/svg.js',
-        'src/renderer/canvas.js',
-        'src/renderer/webgl.js',
+        // 'src/renderer/canvas.js',
+        // 'src/renderer/webgl.js',
         'src/shape.js',
         'src/polygon.js',
         'src/group.js'
